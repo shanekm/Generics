@@ -1,0 +1,8 @@
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IoC\bin\Debug\IoC.exe.config
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IoC\bin\Debug\IoC.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IoC\bin\Debug\IoC.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IoC\obj\Debug\IoC.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IoC\obj\Debug\IoC.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IoC\bin\Debug\Reflection.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IoC\bin\Debug\Reflection.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IoC\obj\Debug\IoC.csprojResolveAssemblyReference.cache

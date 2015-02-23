@@ -1,0 +1,8 @@
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericCollections\bin\Debug\GenericCollections.exe.config
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericCollections\bin\Debug\GenericCollections.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericCollections\bin\Debug\GenericCollections.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericCollections\bin\Debug\DataObjects.dll
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericCollections\bin\Debug\DataObjects.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericCollections\obj\Debug\GenericCollections.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericCollections\obj\Debug\GenericCollections.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericCollections\obj\Debug\GenericCollections.csprojResolveAssemblyReference.cache

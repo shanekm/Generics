@@ -1,0 +1,8 @@
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\Generics\Start\bin\Debug\Start.exe.config
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\Generics\Start\bin\Debug\Start.exe
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\Generics\Start\bin\Debug\Start.pdb
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\Generics\Start\obj\Debug\Start.csprojResolveAssemblyReference.cache
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\Generics\Start\obj\Debug\Start.exe
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\Generics\Start\obj\Debug\Start.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Start\bin\Debug\DataObjects.dll
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Start\bin\Debug\DataObjects.pdb

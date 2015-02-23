@@ -1,0 +1,8 @@
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IComparable\bin\Debug\IComparable.exe.config
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IComparable\bin\Debug\IComparable.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IComparable\bin\Debug\IComparable.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IComparable\bin\Debug\DataObjects.dll
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IComparable\bin\Debug\DataObjects.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IComparable\obj\Debug\Comparable.csprojResolveAssemblyReference.cache
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IComparable\obj\Debug\IComparable.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\IComparable\obj\Debug\IComparable.pdb
