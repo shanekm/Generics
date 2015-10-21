@@ -21,6 +21,9 @@
 
                 // Variance => made IWriteOnlyRepository() => Contravariance
                 AddManagers(empRepository);
+
+                // Manager is child class of Employee
+                empRepository.Add(new Manager { Id = 10, Name = "person"});
             }
         }
 

@@ -9,7 +9,7 @@
     // where T : struct => is value type
     // where T : Person => T must inherit Person
     // where T : new() => always last contraint. says type T has a constructor
-    public class SQLRepository<T> :IRepository<T> where T : class, IEntity
+    public class SQLRepository<T> : IRepository<T> where T : class, IEntity
     {
         public void Add(T newEntity)
         {

@@ -39,8 +39,6 @@
 
             return sum / count;
         }
-
-        
     }
 
     // TAKE THREE

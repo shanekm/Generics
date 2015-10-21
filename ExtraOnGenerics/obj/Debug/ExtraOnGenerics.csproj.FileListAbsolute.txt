@@ -3,3 +3,4 @@ C:\Users\Shane.Kmiecik\documents\visual studio 2013\Projects\Generics\ExtraOnGen
 C:\Users\Shane.Kmiecik\documents\visual studio 2013\Projects\Generics\ExtraOnGenerics\bin\Debug\ExtraOnGenerics.pdb
 C:\Users\Shane.Kmiecik\documents\visual studio 2013\Projects\Generics\ExtraOnGenerics\obj\Debug\ExtraOnGenerics.exe
 C:\Users\Shane.Kmiecik\documents\visual studio 2013\Projects\Generics\ExtraOnGenerics\obj\Debug\ExtraOnGenerics.pdb
+c:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\ExtraOnGenerics\obj\Debug\ExtraOnGenerics.csprojResolveAssemblyReference.cache
