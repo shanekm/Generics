@@ -5,6 +5,10 @@
     // I can have CSVRepo sending in T objects and doing it's saving
     // I can ave SQLRepo sending in T object and inserting/saving in SQL db
     // where T => only OBJECT specific methods are available
+    // where T : class => is a reference type
+    // where T : struct => is value type
+    // where T : Person => T must inherit Person
+    // where T : new() => always last contraint. says type T has a constructor
     public class CSVRepository<T> : IRepository<T> where T : class
     {
         public void Add(T newEntity)
