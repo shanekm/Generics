@@ -3,4 +3,3 @@ C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Constraint
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Constraints\bin\Debug\Constraints.pdb
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Constraints\obj\Debug\Constraints.exe
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Constraints\obj\Debug\Constraints.pdb
-c:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Constraints\obj\Debug\Constraints.csprojResolveAssemblyReference.cache

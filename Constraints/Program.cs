@@ -1,4 +1,6 @@
-﻿namespace Constraints
+﻿using Constraints.Repository;
+
+namespace Constraints
 {
     using System;
     using System.Collections;
@@ -13,7 +15,7 @@
             // Using Repository Pattern
             using (IRepository<Employee> empRepository = new SQLRepository<Employee>())
             {
-                empRepository.Add(new Employee{ Id = 1, Name = "John" });
+                empRepository.Add(new Employee { Id = 1, Name = "John" });
                 empRepository.Commit();
 
                 // Variance => made IReadOnlyRepository() => Covariance
@@ -23,8 +25,26 @@
                 AddManagers(empRepository);
 
                 // Manager is child class of Employee
-                empRepository.Add(new Manager { Id = 10, Name = "person"});
+                empRepository.Add(new Manager { Id = 10, Name = "person" });
             }
+
+
+            // Example 2
+            // T and TKey implementation of RepositoryWithKey
+            // Can NOT use ints since T must be of IEntity type
+            // IRepositoryWithKey<int, Person> repoWithKey = new RepositoryWithKey<int, Person>();
+
+
+            IRepositoryWithKey<EntityImplementation, Employee> repoWithKeyEmployee = new RepositoryWithKey<EntityImplementation, Employee>();
+            repoWithKeyEmployee.AddItem(new EntityImplementation(1), new Employee { Name = "John" });
+            repoWithKeyEmployee.AddItem(new EntityImplementation(2), new Employee { Name = "Steve" });
+            repoWithKeyEmployee.AddItem(new EntityImplementation(3), new Employee { Name = "Bob" });
+            Console.WriteLine(repoWithKeyEmployee.GetItem(new EntityImplementation(2)).Name);
+
+            // Manager should also work
+            IRepositoryWithKey<EntityImplementation, Manager> repoWithKeyManager = new RepositoryWithKey<EntityImplementation, Manager>();
+            repoWithKeyManager.AddItem(new EntityImplementation(1), new Manager{ Name = "Lisa" });
+            Console.WriteLine(repoWithKeyEmployee.GetItem(new EntityImplementation(1)).Name);
         }
 
         // Should be able to pass in Person OR Employee - this only works when GETTING/IEnumerating
