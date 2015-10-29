@@ -1,16 +1,12 @@
-﻿using Constraints.Repository;
+﻿using System;
+using Constraints.Abstract;
+using Constraints.Repository;
 
 namespace Constraints
 {
-    using System;
-    using System.Collections;
-    using System.Collections.Generic;
-
-    using Constraints.Abstract;
-
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // Using Repository Pattern
             using (IRepository<Employee> empRepository = new SQLRepository<Employee>())
@@ -28,22 +24,21 @@ namespace Constraints
                 empRepository.Add(new Manager { Id = 10, Name = "person" });
             }
 
-
             // Example 2
             // T and TKey implementation of RepositoryWithKey
             // Can NOT use ints since T must be of IEntity type
             // IRepositoryWithKey<int, Person> repoWithKey = new RepositoryWithKey<int, Person>();
-
-
-            IRepositoryWithKey<EntityImplementation, Employee> repoWithKeyEmployee = new RepositoryWithKey<EntityImplementation, Employee>();
+            IRepositoryWithKey<EntityImplementation, Employee> repoWithKeyEmployee =
+                new RepositoryWithKey<EntityImplementation, Employee>();
             repoWithKeyEmployee.AddItem(new EntityImplementation(1), new Employee { Name = "John" });
             repoWithKeyEmployee.AddItem(new EntityImplementation(2), new Employee { Name = "Steve" });
             repoWithKeyEmployee.AddItem(new EntityImplementation(3), new Employee { Name = "Bob" });
             Console.WriteLine(repoWithKeyEmployee.GetItem(new EntityImplementation(2)).Name);
 
             // Manager should also work
-            IRepositoryWithKey<EntityImplementation, Manager> repoWithKeyManager = new RepositoryWithKey<EntityImplementation, Manager>();
-            repoWithKeyManager.AddItem(new EntityImplementation(1), new Manager{ Name = "Lisa" });
+            IRepositoryWithKey<EntityImplementation, Manager> repoWithKeyManager =
+                new RepositoryWithKey<EntityImplementation, Manager>();
+            repoWithKeyManager.AddItem(new EntityImplementation(1), new Manager { Name = "Lisa" });
             Console.WriteLine(repoWithKeyEmployee.GetItem(new EntityImplementation(1)).Name);
         }
 
@@ -63,7 +58,7 @@ namespace Constraints
             }
         }
 
-        // Contravariance => treat Employee as Manager
+        // Contravariance => treat Employee as Manager - able to accept more specific type (Manager), although Employee repo 
         public static void AddManagers(IRepository<Employee> empRepository)
         {
             empRepository.Add(new Manager());

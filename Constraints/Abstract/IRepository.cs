@@ -41,7 +41,7 @@ namespace Constraints.Abstract
         IQueryable<T> FindAll();
     }
 
-    // TAKE THREE - CONTRAVARIANCE - INPUT MORE BROAD TO SPECIFIC
+    // TAKE THREE - CONTRAVARIANCE - more specific to broad
     public interface IWriteOnlyRepository<in T> : IDisposable
     {
         void Add(T newEntity);
