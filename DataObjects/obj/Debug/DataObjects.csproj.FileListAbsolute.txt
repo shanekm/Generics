@@ -2,3 +2,4 @@ C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\DataObject
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\DataObjects\bin\Debug\DataObjects.pdb
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\DataObjects\obj\Debug\DataObjects.dll
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\DataObjects\obj\Debug\DataObjects.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\DataObjects\obj\Debug\DataObjects.csprojResolveAssemblyReference.cache

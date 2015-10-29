@@ -16,11 +16,12 @@ namespace Constraints
 
                 // Variance => made IReadOnlyRepository() => Covariance
                 DumpPeople(empRepository);
-
-                // Variance => made IWriteOnlyRepository() => Contravariance
+                Employee employee = empRepository.FindById(1);
+ 
+                // Variance => made IWriteOnlyRepository() => Contravariance - accepts child class in IRepository<Employee>
                 AddManagers(empRepository);
 
-                // Manager is child class of Employee
+                // Manager is child class of Employee - Contravariance - accepts child class in IRepository<Employee>
                 empRepository.Add(new Manager { Id = 10, Name = "person" });
             }
 
