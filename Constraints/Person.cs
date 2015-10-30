@@ -19,7 +19,7 @@ namespace Constraints
 
         public bool IsValid()
         {
-            // always return true, could be random
+            // Always return true, could be random
             return true;
         }
     }
