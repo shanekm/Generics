@@ -6,3 +6,6 @@ C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Delegates\
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Delegates\bin\Debug\DataObjects.dll
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Delegates\bin\Debug\DataObjects.pdb
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Delegates\obj\Debug\Delegates.csprojResolveAssemblyReference.cache
+E:\Dot.Net\Generics\Delegates\bin\Debug\Delegates.exe.config
+E:\Dot.Net\Generics\Delegates\obj\Debug\Delegates.exe
+E:\Dot.Net\Generics\Delegates\obj\Debug\Delegates.pdb

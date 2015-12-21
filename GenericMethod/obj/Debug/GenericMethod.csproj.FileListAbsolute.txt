@@ -1,0 +1,5 @@
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericMethod\bin\Debug\GenericMethod.exe.config
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericMethod\bin\Debug\GenericMethod.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericMethod\bin\Debug\GenericMethod.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericMethod\obj\Debug\GenericMethod.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericMethod\obj\Debug\GenericMethod.pdb
