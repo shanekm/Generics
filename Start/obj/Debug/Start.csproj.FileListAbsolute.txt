@@ -6,3 +6,11 @@ c:\users\shane.kmiecik\documents\visual studio 2013\Projects\Generics\Start\obj\
 c:\users\shane.kmiecik\documents\visual studio 2013\Projects\Generics\Start\obj\Debug\Start.pdb
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Start\bin\Debug\DataObjects.dll
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Start\bin\Debug\DataObjects.pdb
+c:\dev\Generics\Start\bin\Debug\Start.exe.config
+c:\dev\Generics\Start\obj\Debug\Start.exe
+c:\dev\Generics\Start\obj\Debug\Start.pdb
+c:\dev\Generics\Start\bin\Debug\Start.exe
+c:\dev\Generics\Start\bin\Debug\Start.pdb
+c:\dev\Generics\Start\bin\Debug\DataObjects.dll
+c:\dev\Generics\Start\bin\Debug\DataObjects.pdb
+c:\dev\Generics\Start\obj\Debug\Start.csprojResolveAssemblyReference.cache

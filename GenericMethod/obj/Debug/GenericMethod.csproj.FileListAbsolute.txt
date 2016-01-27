@@ -3,3 +3,9 @@ C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericMet
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericMethod\bin\Debug\GenericMethod.pdb
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericMethod\obj\Debug\GenericMethod.exe
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\GenericMethod\obj\Debug\GenericMethod.pdb
+c:\dev\Generics\GenericMethod\bin\Debug\GenericMethod.exe.config
+c:\dev\Generics\GenericMethod\bin\Debug\GenericMethod.exe
+c:\dev\Generics\GenericMethod\bin\Debug\GenericMethod.pdb
+c:\dev\Generics\GenericMethod\obj\Debug\GenericMethod.csprojResolveAssemblyReference.cache
+c:\dev\Generics\GenericMethod\obj\Debug\GenericMethod.exe
+c:\dev\Generics\GenericMethod\obj\Debug\GenericMethod.pdb

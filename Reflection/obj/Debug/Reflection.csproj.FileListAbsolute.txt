@@ -4,3 +4,9 @@ C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Reflection
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Reflection\obj\Debug\Reflection.exe
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Reflection\obj\Debug\Reflection.pdb
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\Generics\Reflection\obj\Debug\Reflection.csprojResolveAssemblyReference.cache
+c:\dev\Generics\Reflection\bin\Debug\Reflection.exe.config
+c:\dev\Generics\Reflection\bin\Debug\Reflection.exe
+c:\dev\Generics\Reflection\bin\Debug\Reflection.pdb
+c:\dev\Generics\Reflection\obj\Debug\Reflection.csprojResolveAssemblyReference.cache
+c:\dev\Generics\Reflection\obj\Debug\Reflection.exe
+c:\dev\Generics\Reflection\obj\Debug\Reflection.pdb

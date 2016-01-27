@@ -9,3 +9,14 @@ C:\Users\Shane.Kmiecik\documents\visual studio 2013\Projects\Generics\UnitTests\
 C:\Users\Shane.Kmiecik\documents\visual studio 2013\Projects\Generics\UnitTests\obj\Debug\UnitTests.pdb
 C:\Users\Shane.Kmiecik\documents\visual studio 2013\Projects\Generics\UnitTests\bin\Debug\DataObjects.dll
 C:\Users\Shane.Kmiecik\documents\visual studio 2013\Projects\Generics\UnitTests\bin\Debug\DataObjects.pdb
+c:\dev\Generics\UnitTests\bin\Debug\UnitTests.dll
+c:\dev\Generics\UnitTests\bin\Debug\UnitTests.pdb
+c:\dev\Generics\UnitTests\bin\Debug\DataObjects.dll
+c:\dev\Generics\UnitTests\bin\Debug\IoC.exe
+c:\dev\Generics\UnitTests\bin\Debug\Reflection.exe
+c:\dev\Generics\UnitTests\bin\Debug\DataObjects.pdb
+c:\dev\Generics\UnitTests\bin\Debug\IoC.pdb
+c:\dev\Generics\UnitTests\bin\Debug\Reflection.pdb
+c:\dev\Generics\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+c:\dev\Generics\UnitTests\obj\Debug\UnitTests.dll
+c:\dev\Generics\UnitTests\obj\Debug\UnitTests.pdb

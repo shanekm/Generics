@@ -1,0 +1,5 @@
+C:\dev\Generics\CovarianceContravariance\bin\Debug\CovarianceContravariance.pdb
+C:\dev\Generics\CovarianceContravariance\obj\Debug\CovarianceContravariance.pdb
+C:\dev\Generics\CovarianceContravariance\bin\Debug\CovarianceContravariance.exe
+C:\dev\Generics\CovarianceContravariance\obj\Debug\CovarianceContravariance.exe
+C:\dev\Generics\CovarianceContravariance\obj\Debug\CovarianceContravariance.csprojResolveAssemblyReference.cache
