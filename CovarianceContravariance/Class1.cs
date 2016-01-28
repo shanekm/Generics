@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 namespace CovarianceContravariance
 {
-    public class Animal{}
-    public class Horse : Animal{}
+    public class Animal{ public string Name { get; set; }}
+    public class Horse : Animal{ public int Age { get; set; }}
 
     interface IInvariant<T>
     {
@@ -15,14 +16,14 @@ namespace CovarianceContravariance
         T pull();
     }
 
-    // Covariant - in - write only. Can change from a class to a class derived from it
+    // Covariant - in - Write only. Can change from a class to a class derived from it
     // implicitly cast to MORE DERIVED. T could be base => sub
     public interface IContravariant<in T>
     {
         void Add(T t);
     }
 
-    // Contravariant - out - read only. Can change from a class to one of its base classes
+    // Contravariant - out - Read only. Can change from a class to one of its base classes
     // implicitly cast to LESS DERIVED. T could be sub => base
     public interface ICovariant<out T>
     {
@@ -58,6 +59,14 @@ namespace CovarianceContravariance
 
     internal class Program
     {
+        private static void PrintAnimals(IEnumerable<Animal> animals)
+        {
+            foreach (var animal in animals)
+            {
+                Console.WriteLine(animal.Name);
+            }    
+        }
+
         private static void Main(string[] args)
         {
             //IInvariant<Horse> i1a = new Concrete<Animal>();   // Error
@@ -73,6 +82,14 @@ namespace CovarianceContravariance
 
             IContravariant<Horse> i3 = new Concrete<Animal>(); // even tho defined as Horse, it can recive Animal
             i3.Add(new Horse()); // contravariance -> horse going into animal - cast to MORE DERIVED
+
+
+            // IEnumerable<out T> - Ienumerable is convarient
+            IEnumerable<Animal> horses = new List<Animal>{ new Horse()};
+            PrintAnimals(horses); // OK - horse is animal - covarience - to less Derived - Compiler converts IEnum<Horse> => IEnum<Animal>
+
+
+
         }
     }
 }
